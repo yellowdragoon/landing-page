@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: roboto,'sans-serif';
+    font-family: 'Roboto','sans-serif';
 }
 
 .full-screen{
@@ -144,4 +144,67 @@ body{
 .quote{
     display: flex;
     flex-direction: column;
+}
+
+.sign-up-banner{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-top: 30vh;
+}
+
+.sign-up-banner button{
+    margin-left: auto;
+    margin-right: 100px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner-text{
+    margin-left: 50px;
+}
+.banner-text h4{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0
+}
+
+.banner-text p{
+    color: #F9FAF8;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    margin-top: auto;
+    height: 80px;
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: #E5E7EB;
+    font-size: 17px;
+    font-weight: 500;
 }
