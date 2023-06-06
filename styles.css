@@ -118,3 +118,30 @@ body{
     align-items: center;
     width: 350px;
 }
+
+.section-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight:100;
+    width: 800px;
+    margin-bottom: 0;
+}
+
+.quote-ref{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+}
